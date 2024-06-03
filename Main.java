@@ -25,7 +25,27 @@ public class Main {
         OOP myAge = new OOP();
         System.out.println("(Using multiple attributes) \nMy Name is " + firstName.fName + " " + lastName.lName + ". " + "I am " + myAge.age + " years old.");
 
-        
+        //Java Methods
+        //static method in diff class so OOP.print Hello (called w/o creating obj)
+        OOP.printHello(); 
+        //public method needs obj to be called
+        OOP myObj3 = new OOP();
+        myObj3.publicPrintHello(); //prints Hello World
+
+        //ACCESS METHODS W/ OBJ
+        OOP myCar = new OOP();
+        myCar.fullThrottle();
+        myCar.speed(300);
+
+        //CONSTRUCTORS
+        OOP constructorObj = new OOP(); //obj created for calling the constructor
+        System.out.println("Constructor init - " + constructorObj.z);
+
+        //CONTRUCTOR WITH PARAMETERS
+        constWithParam carDetails = new constWithParam("Range Rover", "Velar", 2024);
+        System.out.println("(costructor with parameters)\nMy Car details: \nName: " + carDetails.carName + "\nModel: " + carDetails.model + "\nYear of purchase: " + carDetails.modelYear);
+
+
 
     }
 }
