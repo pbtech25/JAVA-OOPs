@@ -45,10 +45,10 @@ We divide modifiers into two groups:
 2. for **attributes, methods and constructors**:
    | **Modifier** | **Description** | **Example** |
    | :----------: | :------------------------------------------------------- | :-------------------- |
-   | public | class is accessible by any other class | public class Main { } |
-   | private | class is accessible only within declared class | public class Main { } |
-   | default | class is accessible by classes in the same package | public class Main { } |
-   | protected | class is accessible by same package and subclasses | public class Main { } |
+   | public | class is accessible by any other class | public int age = 24; |
+   | private | class is accessible only within declared class | private int age = 24; |
+   | default | class is accessible by classes in the same package | int age = 24; |
+   | protected | class is accessible by same package and subclasses | protected int age = 24; |
 
 ### Non Access Modifiers
 
