@@ -111,5 +111,4 @@ C:\Users\Your Name>javac -d . MyPackageClass.java
 - interface is a completely "abstract class" that is used to group related methods with empty bodies
 - To access interface methods, interface must be "implemented" by another class with the implements keyword (instead of extends). 
 - The body of the interface method is provided by the "implement" class
-- An interface cannot contain a constructor (as it cannot be used to create objects)
-- Why And When To Use Interfaces?
+- An interface cannot contain a constructor (as it cannot be used to create objects)~
