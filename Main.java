@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,13 +62,18 @@ public class Main {
         // myObj.setName("Shardul");
         // System.out.println(myObj.getName());
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter your username: ");
-        String username = sc.nextLine();
-        System.out.println("Username is: " + username);
+        // System.out.println("Enter your username: ");
+        // String username = sc.nextLine();
+        // System.out.println("Username is: " + username);
 
-        sc.close();
+        // sc.close();
 
+        //INNER CLASS
+        OuterClass myOuter = new OuterClass();
+        OuterClass.InnerClass myInner = myOuter.new InnerClass();
+
+        System.out.println(myOuter.x + myInner.y);
     }
 }
