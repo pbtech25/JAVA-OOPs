@@ -71,9 +71,9 @@ public class Main {
         // sc.close();
 
         //INNER CLASS
-        OuterClass myOuter = new OuterClass();
-        OuterClass.InnerClass myInner = myOuter.new InnerClass();
+        // OuterClass myOuter = new OuterClass();
+        // OuterClass.InnerClass myInner = myOuter.new InnerClass();
 
-        System.out.println(myOuter.x + myInner.y);
+        // System.out.println(myOuter.x + myInner.y);
     }
 }
