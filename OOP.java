@@ -31,5 +31,4 @@ public class OOP {
     public OOP(){ //creating class constructor for OOP class
         z = 20; //initialised z in constructor
     }
-
 }
