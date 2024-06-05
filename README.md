@@ -105,3 +105,11 @@ C:\Users\Your Name>javac -d . MyPackageClass.java
 - We set the brand attribute in Vehicle to a protected access modifier. If it was set to private, the Car class would not be able to access it.
 
 - If you don't want other classes to inherit from a class, use the **final** keyword
+
+## Interface
+- Another way to achieve abstraction 
+- interface is a completely "abstract class" that is used to group related methods with empty bodies
+- To access interface methods, interface must be "implemented" by another class with the implements keyword (instead of extends). 
+- The body of the interface method is provided by the "implement" class
+- An interface cannot contain a constructor (as it cannot be used to create objects)
+- Why And When To Use Interfaces?
